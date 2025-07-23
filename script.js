@@ -43,6 +43,7 @@ button.addEventListener("click", async (evt) => {
   let amount = document.querySelector("#amount").value;
   if (amount === "" || amount < 1) {
     amount = 0;
+    document.querySelector("#amount").value=0;
   }
 
   let fromCurrency = document.querySelector("#currency-one").value;
