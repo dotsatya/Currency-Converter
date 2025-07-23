@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Currency Converter</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Currency Converter 💱</h1>
+      <div class="input-container">
+        <input type="number" id="amount" required />
+        <label for="amount">Enter Amount ...</label>
+      </div>
+      <form action="">
+        <div class="currency-container">
+          <div class="from choose-box">
+            <p>From</p>
+            <div class="select_container">
+              <img   class="flag" src="https://flagsapi.com/US/flat/64.png" alt="" />
+              <select name="from" id="currency-one">
+                <option value="US">USD</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="icon">
+            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+          </div>
+
+          <div class="to choose-box">
+            <p>To</p>
+            <div class="select_container">
+              <img class="flag" src="https://flagsapi.com/IN/flat/64.png" alt="" />
+
+              <select name="to" id="currency-two">
+                <option value="IN">INR</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="msg">0 USD = 0 INR</div>
+        <button type="submit">Convert</button>
+        <p id="result"></p>
+      </form>
+    </div>
+  </body>
+  <script src="codes.js"></script>
+  <script src="script.js"></script>
+</html>
